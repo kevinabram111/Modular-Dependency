@@ -13,14 +13,6 @@ class LoginViewController: UIViewController {
     
     var router = InjectionContainer.shared.resolve(Routing.self)
     
-    init() {
-        super.init(nibName: nil, bundle: nil)
-    }
-    
-    required init?(coder: NSCoder) {
-        super.init(coder: coder)
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
