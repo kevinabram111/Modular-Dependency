@@ -15,6 +15,7 @@
 		1DB9AE332A125B1800A38D90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB9AE312A125B1800A38D90 /* LaunchScreen.storyboard */; };
 		1DB9AE452A125F5100A38D90 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 1DB9AE442A125F5100A38D90 /* Swinject */; };
 		1DB9AE4F2A126FB300A38D90 /* HomeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 1DB9AE4E2A126FB300A38D90 /* HomeModule */; };
+		1DE7FC532BCFD6CA008F0448 /* UtilityModule in Resources */ = {isa = PBXBuildFile; fileRef = 1DE7FC522BCFD6CA008F0448 /* UtilityModule */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		1DB9AE342A125B1800A38D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DB9AE472A125FBF00A38D90 /* CommonModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CommonModule; sourceTree = "<group>"; };
 		1DB9AE482A125FC300A38D90 /* HomeModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HomeModule; sourceTree = "<group>"; };
+		1DE7FC522BCFD6CA008F0448 /* UtilityModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UtilityModule; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		1DB9AE1A2A125B1600A38D90 = {
 			isa = PBXGroup;
 			children = (
+				1DE7FC512BCFD6CA008F0448 /* Shared */,
 				1DB9AE412A125EFA00A38D90 /* Modules */,
 				1DB9AE252A125B1600A38D90 /* Modular-Dependency */,
 				1DB9AE242A125B1600A38D90 /* Products */,
@@ -89,6 +92,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DE7FC512BCFD6CA008F0448 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1DE7FC522BCFD6CA008F0448 /* UtilityModule */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 			files = (
 				1DB9AE332A125B1800A38D90 /* LaunchScreen.storyboard in Resources */,
 				1DB9AE302A125B1800A38D90 /* Assets.xcassets in Resources */,
+				1DE7FC532BCFD6CA008F0448 /* UtilityModule in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
